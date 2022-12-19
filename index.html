@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>Track Your Expense : Designed By Raaz</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="pop-up">
+            <div class="pop_input">
+                <h2> 😍Add Your Revenue 😍</h2>
+                <input type="number" id="Amount_input" class="Amount_input" placeholder="Amount">
+            </div>
+            <div class="pop_btn">
+                <button type="submit" class="closeBtnRev">Close</button>
+                <button type="submit" class="add_Rev">Add</button>
+            </div>
+        </div>
+        <div class="pop_up_bottom">
+            <div class="pop_input" class="responsive">
+                <h2> 😐 Add Your Expense 😐</h2>
+                <input type="number" class="amount_expense_input" placeholder="Amount">
+                <input type="text" name="" id="exp_for" placeholder="Expense For">
+                <input type="date" id="exp_date">
+            </div>
+            <div class="pop_btn">
+                <button class="closeBtnExp">Close</button>
+                <button class="add_Exp">Add</button>
+            </div>
+        </div>
+        <!-- Header Section -->
+
+        <section class="Header">
+            <div class="heading">
+                <div class="walletbalance">
+                    <h2>Money Remains</h2>
+                    <input type="text" value="0" class="money_remains" readonly>
+                    <button id="add_Money">Add Money</button>
+                </div>
+                <div class="Name_heading">
+                    <h2 class="Client_name"></h2>
+                    <h3 class="today"></h3>
+                </div>
+                <div class="Total_Expense">
+                    <h2>Your Total Expense</h2>
+                    <input type="text" value="108" readonly class="expense_input">
+                    <button id="add_Expense">Add Expense</button>
+                </div>
+            </div>
+        </section>
+        <section class="Expense_List">
+            <h1>Your Expense History</h1>
+            <div class="expense_mdiv">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
